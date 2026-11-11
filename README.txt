@@ -1,1 +1,1 @@
-Drift United V1.6 – kompletná vizuálna a obsahová aktualizácia. Nahrajte index.html do koreňa repozitára. Registrácia je demo bez serverového odosielania. Fotografie sú externé ilustračné zábery; pred verejným použitím overte licencie a prípadne nahraďte vlastnými fotografiami. Termíny a ceny sú zatiaľ neoznámené.
+Drift United V1.7 – aktualizovaný hero, bezplatný vstup a poradie šiestich zón. Otvorte index.html alebo nahrajte oba súbory do koreňa repozitára. Registračný formulár je demo. Fotografie sú externé ilustračné.
