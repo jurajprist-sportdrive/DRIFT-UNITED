@@ -1,1 +1,1 @@
-Drift United V1.5 – otvorte index.html alebo nahrajte do koreňa GitHub repozitára. Registračný formulár je iba demo. Fotografie sú externé ilustračné obrázky a pred verejným použitím treba overiť licencie.
+Drift United V1.6 – kompletná vizuálna a obsahová aktualizácia. Nahrajte index.html do koreňa repozitára. Registrácia je demo bez serverového odosielania. Fotografie sú externé ilustračné zábery; pred verejným použitím overte licencie a prípadne nahraďte vlastnými fotografiami. Termíny a ceny sú zatiaľ neoznámené.
