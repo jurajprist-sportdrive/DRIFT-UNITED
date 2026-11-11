@@ -1,1 +1,4 @@
-Drift United V3 – poradie sekcií: Celý areál žije motoršportom, Drift Taxi, United Awards, Why United. Nahrajte index.html do koreňa repozitára.
+DRIFT UNITED SLOVAKIA v2.0
+Upload index.html to the root of GitHub repository. Netlify publish directory: .
+Registration is a frontend demo; no backend or payment processing.
+Image cards are illustrative and link to real Pezinska Baba photo galleries; obtain photographer permission before embedding actual photos.
