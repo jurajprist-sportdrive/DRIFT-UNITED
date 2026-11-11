@@ -81,7 +81,7 @@ const regClose=document.getElementById('closeRegistration');
 let lastRegTrigger=null;
 function openRegistration(weekend,trigger){lastRegTrigger=trigger||document.activeElement;if(weekend){document.querySelector('#registrationForm [name="weekend"]').value=weekend;}regModal.classList.add('is-open');regModal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open');regClose.focus();}
 function closeRegistration(){regModal.classList.remove('is-open');regModal.setAttribute('aria-hidden','true');document.body.classList.remove('modal-open');if(lastRegTrigger&&lastRegTrigger.focus)lastRegTrigger.focus();}
-document.addEventListener('click',function(e){const link=e.target.closest('a[href="#register"],a[data-weekend]');if(link){e.preventDefault();openRegistration(link.dataset.weekend||null,link);document.getElementById('links').classList.remove('open');}});
+document.addEventListener('click',function(e){const link=e.target.closest('a[href="#register"],a[data-weekend]');if(link){e.preventDefault();window.location.href='portal.html'+(link.dataset.weekend?'?weekend='+encodeURIComponent(link.dataset.weekend):'');}});
 regClose.addEventListener('click',closeRegistration);
 regModal.addEventListener('click',e=>{if(e.target===regModal)closeRegistration()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&regModal.classList.contains('is-open'))closeRegistration();});
